@@ -1,0 +1,14 @@
+@import './variables';
+@import './header';
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.contact {
+    @extend header;
+    background: lightcoral;
+    width: 100% - 40%;
+}
