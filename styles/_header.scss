@@ -9,18 +9,16 @@
 header {
     // could use row
     @include flexCenter(column, lightblue);
-
     color: $textColor;
     height: 100vh;
-
     button {
         background: $primaryBtn;
         border: none;
         padding: 10px;
         margin: 0px;
-
         &:hover {
             background: red;
+
             &::after {
                 content:' Hello world';
             }
